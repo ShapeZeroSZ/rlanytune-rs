@@ -1,0 +1,15 @@
+[package]
+name = "rlanytune"
+version = "0.2.0"
+edition = "2024"
+rust-version = "1.88"
+description = "Set up, configure and launch Open-AgentRL (RLAnything) training runs"
+repository = "https://github.com/ShapeZeroSZ/rlanytune-rs"
+
+[dependencies]
+anyhow = "1.0.100"
+clap = { version = "4.5.57", features = ["derive", "env"] }
+serde_json = "1"
+
+[dev-dependencies]
+tempfile = "3"
